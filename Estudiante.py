@@ -6,5 +6,5 @@ class Estudiante():
         return self.__Nombre
 
 
-Carlos=Estudiante("Carlos","12")
+Carlos=Estudiante(str(input("Escriba el nombre del estudiante")),str(input("Escriba el codigo del estudiante")))
 print(Carlos.getName())
